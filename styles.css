@@ -1,0 +1,72 @@
+:root {
+    --dark-green: #0e1f25;
+    --white: #f2f0ef;
+    --yellow: #ffb703;
+}
+
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-green);
+    height: 100vh;
+}
+
+#title {
+    font-size: 35px;
+    margin: 20px 0 10px;
+    color: var(--white);
+}
+
+#change-due {
+    font-size: 17px;
+    color: var(--white);
+    padding: 0.3em;
+}
+
+#cash-label {
+    font-size: 18px;
+    margin: 10px 0;
+    color: var(--white);
+}
+
+#cash {
+    font-size: 14px;
+    width: 190px;
+    height: 30px;
+    padding: 5px;
+}
+
+#purchase-btn {
+    font-size: 18px;
+    margin: 20px 0;
+    width: 120px;
+    height: 35px;
+    background-color: var(--yellow);
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#total {
+    background-color: black;
+    color: var(--white);
+    font-size: 18px;
+    padding: 5px 30px;
+    border: 2px solid var(--yellow);
+}
+
+#cid {
+    border: 5px solid var(--yellow);
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: var(--white);
+}
