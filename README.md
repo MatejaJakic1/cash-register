@@ -53,8 +53,8 @@ Example Workflow
     The system checks if there are enough coins and bills in the drawer.
     If there’s enough change in the drawer, it will return a breakdown like:
 
-Status: OPEN
-QUARTER: $0.75
-DIME: $0.10
-NICKEL: $0.05
-PENNY: $0.01
+    Status: OPEN
+    QUARTER: $0.75
+    DIME: $0.10
+    NICKEL: $0.05
+    PENNY: $0.01
