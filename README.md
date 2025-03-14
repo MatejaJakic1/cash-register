@@ -22,21 +22,21 @@ Technologies Used
 
 How to Use
 
-    Clone this repository to your local machine using:
+Clone this repository to your local machine using:
 
-git clone https://github.com/your-username/cash-register.git
+    git clone https://github.com/your-username/cash-register.git
 
 Navigate to the project directory:
 
     cd cash-register
-
-    Open the index.html file in a browser.
-    Enter the cash amount from the customer in the input field and click the "Purchase" button.
-    The system will display:
-        Total amount.
-        The change due, if applicable.
-        The current state of the cash drawer (including a detailed list of available denominations).
-    The change will be calculated and presented in denominations such as pennies, nickels, dimes, quarters, and various bill denominations.
+    
+Open the index.html file in a browser.
+Enter the cash amount from the customer in the input field and click the "Purchase" button.
+The system will display:
+    Total amount.
+    The change due, if applicable.
+    The current state of the cash drawer (including a detailed list of available denominations).
+The change will be calculated and presented in denominations such as pennies, nickels, dimes, quarters, and various bill denominations.
 
 File Structure
 
