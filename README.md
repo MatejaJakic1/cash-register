@@ -1,8 +1,8 @@
-##Description
+## Description
 
 This project is a simple cash register system that calculates the change due to a customer based on their payment and the total price of the item(s) they are purchasing. The program checks if the customer has provided enough money, calculates the change, and ensures there are enough bills and coins in the drawer to make the change. The program also outputs the status of the transaction, whether it’s "INSUFFICIENT_FUNDS", "CLOSED", or "OPEN", along with the breakdown of the change due.
 
-##Features
+## Features
 
 - Input cash from the customer.
 - Displays the total amount to be paid.
@@ -14,13 +14,13 @@ This project is a simple cash register system that calculates the change due to 
     - Closed drawer when the drawer amount matches the change due.
     - Detailed breakdown of the change with denomination labels.
 
-##Technologies Used
+## Technologies Used
 
     HTML5
     CSS3
     JavaScript
 
-##How to Use
+## How to Use
 
 Clone this repository to your local machine using:
 
@@ -39,7 +39,7 @@ The system will display:
     The current state of the cash drawer (including a detailed list of available denominations).
 The change will be calculated and presented in denominations such as pennies, nickels, dimes, quarters, and various bill denominations.
 
-##Example Workflow
+## Example Workflow
 
     Total: $3.26
     Customer enters $5.00.
